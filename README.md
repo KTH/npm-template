@@ -1,7 +1,7 @@
 # Steps to make your own NPM package.
 
 1. **Copy the npm-template** and rename it to something you like.
-2. **Add a new job under [npm in Jenkins](https://build.sys.kth.se/view/npm/)**. Copy an existing npm job like _kth-node-monitor_, Name it to the same name as your repository.
+2. **Add a new job under [npm in Jenkins](https://build.sys.kth.se/view/npm/)**. Copy an existing npm job like _npm-template_, Name it to the same name as your repository.
 3. Under _configuration_ in the new job **change Git URL and Git repo-name**.
 4. **Add the build to [Travis CI](https://travis-ci.org/organizations/KTH/repositories)**
 5. **Remove this orderd list** from your README.md and update the stuff below with your package information.
