@@ -14,7 +14,7 @@
 
 # NPM Template ![alt text](https://api.travis-ci.org/KTH/npm-template.svg?branch=master)
 
-NPM: https://www.npmjs.com/package/@kth/npm-templage
+NPM: https://www.npmjs.com/package/@kth/npm-template
 
 ## How to use
 
