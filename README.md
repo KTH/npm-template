@@ -5,9 +5,11 @@
 3. Under _configuration_ in the new job **change Git URL and Git repo-name**.
 4. **Add the build to [Travis CI](https://travis-ci.org/organizations/KTH/repositories)**
 5. **Remove this orderd list** from your README.md and update the stuff below with your package information.
-6. **Publishing to npm is now automatic**. Every time you push Evolene will run npm run-script build. After that Evolene will check ot see if the version in package.json have been updated. If it does not previously exists in the npm registry, a new version with this version number is published to npm.
-*Reminder:* If you forget to update the version Evolene will run npm run-script build, but without publishing to the registy.
 6. 💥 🎉 Happy Coding!
+
+**Publishing to npm is now automatic**. Every time you push Evolene will run npm run-script build. After that Evolene will check ot see if the version in package.json have been updated. If it does not previously exists in the npm registry, a new version with this version number is published to npm.
+*Reminder:* If you forget to update the version Evolene will run npm run-script build, but without publishing to the registy.
+
 
 # NPM Template ![alt text](https://api.travis-ci.org/KTH/npm-template.svg?branch=master)
 
