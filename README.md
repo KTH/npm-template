@@ -7,8 +7,9 @@
 5. **Remove this orderd list** from your README.md and update the stuff below with your package information.
 6. 💥 🎉 Happy Coding!
 
-**Publishing to npm is now automatic**. Every time you push Evolene will run npm run-script build. After that Evolene will check ot see if the version in package.json have been updated. If it does not previously exists in the npm registry, a new version with this version number is published to npm.
-*Reminder:* If you forget to update the version Evolene will run npm run-script build, but without publishing to the registy.
+**Publishing to npm is now automatic**. Every time you push Evolene will run `npm run-script build`. After that Evolene will check to see if the version in package.json is newer then on npm.com. If so, a new version is published to npm.
+
+*Reminder:* If you forget to update the version Evolene will run npm run-script build, but *without publishing* to the registy.
 
 
 # NPM Template ![alt text](https://api.travis-ci.org/KTH/npm-template.svg?branch=master)
