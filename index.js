@@ -11,5 +11,5 @@ const isWorking = () => {
  * Public exports
  */
 module.exports = {
-  isWorking: isWorking
+  isWorking: isWorking,
 };
