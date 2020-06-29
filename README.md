@@ -29,7 +29,7 @@ if (package.isWorking()) {
 ## Run tests
 
 ```bash
-npm build ## Does npm install and npm test
+npm build ## Does npm install and npm test.
 ```
 
 You can also view the tests at https://travis-ci.org/KTH/npm-template
