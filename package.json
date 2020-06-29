@@ -1,6 +1,6 @@
 {
   "name": "@kth/npm-template",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "automaticPublish": "true",
   "description": "Template repo for npm-packages ",
   "main": "index.js",
