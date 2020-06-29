@@ -2,7 +2,7 @@
   "name": "@kth/npm-template",
   "version": "1.0.0",
   "automaticPublish": "true",
-  "description": "Template repo for npm-packages ",
+  "description": "Template repo for npm-packages. Also test for Evolene npm publishing. ",
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=development node_modules/mocha/bin/mocha ./test/test-*.js ./test/**/test-*.js",
