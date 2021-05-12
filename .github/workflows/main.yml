@@ -33,3 +33,5 @@ jobs:
           BUILD_INFORMATION_OUTPUT_FILE='/version.js' \
           
           ${{ secrets.EVOLENE_RUN_COMMAND }}
+      - name: Print envs
+        run: set
