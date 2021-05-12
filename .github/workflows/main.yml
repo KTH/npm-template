@@ -27,11 +27,11 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
+      - name: Print envs
+        run: set
       - name: Build, Test and Push with Evolene
         run: |
           SLACK_CHANNELS=#team-pipeline-build \
           BUILD_INFORMATION_OUTPUT_FILE='/version.js' \
           
           ${{ secrets.EVOLENE_RUN_COMMAND }}
-      - name: Print envs
-        run: set
