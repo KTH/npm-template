@@ -34,4 +34,4 @@ jobs:
           SLACK_CHANNELS=#team-pipeline-build \
           BUILD_INFORMATION_OUTPUT_FILE='/version.js' \
           
-          ${{ secrets.EVOLENE_RUN_COMMAND }}
+          ${{ secrets.EVOLENE_LATEST_RUN_COMMAND }}
