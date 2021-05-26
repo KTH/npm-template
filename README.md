@@ -1,4 +1,4 @@
-# Steps to make your own NPM package.
+# Steps to make your own NPM package. ![Continous Integration](https://github.com/KTH/npm-template/actions/workflows/main.yml/badge.svg)
 
 1. **Copy this npm-template** and rename it to something you like.
 2. **Add a new job under [npm in Jenkins](https://build.sys.kth.se/view/npm/)**. Copy an existing npm job like _npm-template_, Name it to the same name as your repository.
