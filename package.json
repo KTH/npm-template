@@ -6,7 +6,9 @@
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=development node_modules/mocha/bin/mocha ./test/test-*.js ./test/**/test-*.js",
-    "build": "npm install && npm test"
+    "build": "npm install && npm test",
+    "clean": "rm -r ./node_modules && rm -f package-lock.json",
+    "package-update": "npm run clean & ncu -u && npm run test"
   },
   "repository": {
     "type": "git",
