@@ -12,7 +12,7 @@
 *Reminder:* If you forget to update the version Evolene will run npm run-script build, but *without publishing* to the registy.
 
 
-# NPM Template ![alt text](https://api.travis-ci.org/KTH/npm-template.svg?branch=master)
+# NPM Template ![Continous Integration](https://github.com/KTH/npm-template/actions/workflows/main.yml/badge.svg) ![Continous Integration](https://github.com/KTH/npm-template/actions/workflows/main-latest.yml/badge.svg)
 
 NPM: https://www.npmjs.com/package/@kth/npm-template
 
