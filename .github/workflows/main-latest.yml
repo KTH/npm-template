@@ -36,7 +36,7 @@
 ####################################################################################################################################
 
 
-name: Evolene CI
+name: Evolene CI - Latest
 
 on:  
   push:
@@ -50,7 +50,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  Evolene-latest:
+  Evolene:
     name: Continuous Integration
     runs-on: ubuntu-20.04
     steps:
