@@ -50,7 +50,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  Evolene:
+  Evolene-latest:
     name: Continuous Integration
     runs-on: ubuntu-20.04
     steps:
