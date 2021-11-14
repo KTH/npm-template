@@ -1,4 +1,3 @@
-sudo -u
 apk update 2>&1
 echo "$(apk add zip 2>&1)"
 
