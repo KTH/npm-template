@@ -1,4 +1,6 @@
 apk update
 apk add zip
 
-zip --version
+echo "------------------"
+echo "$(zip --version)"
+echo "------------------"
