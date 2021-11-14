@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=development node_modules/mocha/bin/mocha ./test/test-*.js ./test/**/test-*.js",
-    "build": "echo ${WORKSPACE}",
+    "build": "${WORKSPACE}/build.sh",
     "old-build": "npm install && npm test",
     "clean": "rm -r ./node_modules && rm -f package-lock.json",
     "package-update": "git pull && npm run clean & ncu -u && npm install && npm audit fix && npm test"
