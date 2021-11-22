@@ -13,6 +13,6 @@ describe("Type of tests header", function() {
   // the test help with documenting the package, and
   // its intent. Giving a good overview when running tests.
   it("When running tests, expect the package to always work.", function() {
-    expect(index.isWorking()).to.be.false;
+    expect(index.isWorking()).to.be.true;
   });
 });
