@@ -17,4 +17,3 @@ const isWorking = () => {
 module.exports = {
   isWorking: isWorking,
 };
-
