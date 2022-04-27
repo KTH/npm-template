@@ -1,9 +1,5 @@
 "use strict";
 
-/*
-* Disc.
-*/
-
 /**
  * Is it really working?
  */
